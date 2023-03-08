@@ -1,0 +1,1 @@
+# rockchip-android-manifest

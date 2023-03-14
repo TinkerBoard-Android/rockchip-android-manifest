@@ -5,7 +5,7 @@
           review="https://github.com/" />
 
   <default remote="github"
-           revision="refs/tags/tinker_board_2-android11-2.0.8"
+           revision="refs/tags/tinker_board-android11-1.0.0"
            sync-c="true" />
 
   <project path="RKDocs/android" name="TinkerBoard-Android/rockchip-android-docs-android" />

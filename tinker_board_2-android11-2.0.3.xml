@@ -46,6 +46,7 @@
   <project path="device/common" name="TinkerBoard-Android/rockchip-android-device-common" />
   <project path="device/generic/arm64" name="TinkerBoard-Android/rockchip-android-device-generic-arm64" />
   <project path="device/generic/armv7-a-neon" name="TinkerBoard-Android/rockchip-android-device-generic-armv7-a-neon" />
+  <project path="device/generic/car" name="TinkerBoard-Android/rockchip-android-device-generic-car" />
   <project path="device/generic/common" name="TinkerBoard-Android/rockchip-android-device-generic-common" />
   <project path="device/generic/goldfish" name="TinkerBoard-Android/rockchip-android-device-generic-goldfish" />
   <project path="device/generic/goldfish-opengl" name="TinkerBoard-Android/rockchip-android-device-generic-goldfish-opengl" />
@@ -60,7 +61,6 @@
   <project path="device/generic/x86" name="TinkerBoard-Android/rockchip-android-device-generic-x86" />
   <project path="device/generic/x86_64" name="TinkerBoard-Android/rockchip-android-device-generic-x86_64" />
   <project path="device/google/atv" name="TinkerBoard-Android/rockchip-android-device-google-atv" />
-  <project path="device/google_car" name="TinkerBoard-Android/rockchip-android-device-google_car" />
   <project path="device/rockchip/common" name="TinkerBoard-Android/rockchip-android-device-rockchip-rksdk" >
     <copyfile src=".classpath" dest=".classpath"/>
     <copyfile src="javaenv.sh" dest="javaenv.sh"/>

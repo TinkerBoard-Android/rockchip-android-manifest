@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+	  fetch="https://github.com/"
+	  review="https://github.com/" />
+
+  <default revision="android12-rockchip"
+           remote="github"
+           sync-c="true" />    
+</manifest>

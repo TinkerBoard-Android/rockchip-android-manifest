@@ -59,7 +59,6 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="device/sample" name="TinkerBoard-Android/rockchip-android-device-sample" />
-  <project path="docker_builder" name="TinkerBoard-Android/DevOps-docker_builder" />
   <project path="docs/source.android.com" name="TinkerBoard-Android/rockchip-android-docs-source.android.com" />
   <project path="external/ImageMagick" name="TinkerBoard-Android/rockchip-android-external-ImageMagick" />
   <project path="external/aac" name="TinkerBoard-Android/rockchip-android-external-aac" />

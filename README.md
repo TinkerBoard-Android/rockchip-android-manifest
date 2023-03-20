@@ -1,5 +1,9 @@
 # rockchip-android-manifest
 
+Please go to TinkerBoard wiki for more information.
+
+https://github.com/TinkerBoard/TinkerBoard/wiki
+
 Tinker Board (S) R2.0 - Android 12
 
 Latest source:

@@ -18,11 +18,11 @@ Please refer to the following URL to understand how to download the AOSP-based s
 
 To check out the specific branch:
 
-    $ repo init -u https://github.com/TinkerBoard-Android/manifest.git -b REVISION
+    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION
 
 To check out the specific release:
 
-    $ repo init -u https://github.com/TinkerBoard-Android/manifest.git -b REVISION -m NAME.xml
+    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION -m NAME.xml
 
 Here REVISON is the manifest branch or revision (use HEAD for default) and NAME.xml is the initial manifest file. Regarding the branches and manifest for each project, please refer to the following release table.
 

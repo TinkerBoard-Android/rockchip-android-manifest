@@ -53,6 +53,7 @@
   </project>
   <project path="device/asus/tinker_board" name="TinkerBoard-Android/rockchip-android-device-asus-tinker_board" />
   <project path="device/asus/tinker_board_2" name="TinkerBoard-Android/rockchip-android-device-asus-tinker_board_2" />
+  <project path="device/asus/tinker_board_3" name="TinkerBoard-Android/rockchip-android-device-asus-tinker_board_3" />
   <project path="device/common" name="TinkerBoard-Android/rockchip-android-device-common" />
   <project path="device/generic/arm64" name="TinkerBoard-Android/rockchip-android-device-generic-arm64" />
   <project path="device/generic/armv7-a-neon" name="TinkerBoard-Android/rockchip-android-device-generic-armv7-a-neon" />
@@ -81,7 +82,6 @@
   <project path="device/google/gs-common" name="TinkerBoard-Android/rockchip-android-device-google-gs-common" />
   <project path="device/google/gs101" name="TinkerBoard-Android/rockchip-android-device-google-gs101" />
   <project path="device/google/gs101-sepolicy" name="TinkerBoard-Android/rockchip-android-device-google-gs101-sepolicy" />
-  <project path="device/google/raviole" name="TinkerBoard-Android/rockchip-android-device-google-raviole" />
   <project path="device/google/vrservices" name="TinkerBoard-Android/rockchip-android-device-google-vrservices" />
   <project path="device/google_car" name="TinkerBoard-Android/rockchip-android-device-google_car" />
   <project path="device/linaro/hikey" name="TinkerBoard-Android/rockchip-android-device-linaro-hikey" />
@@ -93,6 +93,7 @@
   </project>
   <project path="device/rockchip/rk3288" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3288" />
   <project path="device/rockchip/rk3326" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3326" />
+  <project path="device/rockchip/rk3328" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3328" />
   <project path="device/rockchip/rk3399" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3399" />
   <project path="device/rockchip/rk356x" name="TinkerBoard-Android/rockchip-android-device-rockchip-rk3566" />
   <project path="device/sample" name="TinkerBoard-Android/rockchip-android-device-sample" />
@@ -798,8 +799,10 @@
   <project path="hardware/rockchip/libgraphicpolicy" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libgraphicpolicy" />
   <project path="hardware/rockchip/libhardware_rockchip" name="TinkerBoard-Android/rockchip-android-hardware-rk35-libhardware_rockchip" />
   <project path="hardware/rockchip/libhwjpeg" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libhwjpeg" />
+  <project path="hardware/rockchip/libiep" name="TinkerBoard-Android/rockchip-android-libiep" />
   <project path="hardware/rockchip/libmemtrack" name="TinkerBoard-Android/rockchip-android-hardware-rk29-libmemtrack" />
   <project path="hardware/rockchip/libmpimmz" name="TinkerBoard-Android/rockchip-android-hardware-rk29-mpi-mmz" />
+  <project path="hardware/rockchip/libpq" name="TinkerBoard-Android/rockchip-android-libpq-release" />
   <project path="hardware/rockchip/librga" name="TinkerBoard-Android/rockchip-android-linux-rga" />
   <project path="hardware/rockchip/librkcrypto" name="TinkerBoard-Android/rockchip-android-librkcrypto" />
   <project path="hardware/rockchip/librkvpu" name="TinkerBoard-Android/rockchip-android-hardware-rk29-librkvpu" />
@@ -813,6 +816,7 @@
   <project path="hardware/rockchip/thermal" name="TinkerBoard-Android/rockchip-android-hardware-rk29-thermal" />
   <project path="hardware/rockchip/tv_input" name="TinkerBoard-Android/rockchip-android-hardware-rk35-tv_input" />
   <project path="hardware/rockchip/udc_set" name="TinkerBoard-Android/rockchip-android-hardware-rk35-udc_set" />
+  <project path="hardware/rockchip/usb" name="TinkerBoard-Android/rockchip-android-hardware-rk35-usb" />
   <project path="hardware/rockchip/vibrator_aidl" name="TinkerBoard-Android/rockchip-android-hardware-rk35-vibrator_aidl" />
   <project path="hardware/rockchip/weaver" name="TinkerBoard-Android/rockchip-android-hardware-rk29-weaver" />
   <project path="hardware/rockchip/wifi" name="TinkerBoard-Android/rockchip-android-hardware-rockchip-wifi" />
@@ -1077,5 +1081,5 @@
   <project path="vendor/rockchip/hardware/interfaces/rockit" name="TinkerBoard-Android/rockchip-android-vendor-rockchip-hardware-rockit" />
   <project path="vendor/widevine" name="TinkerBoard-Android/rockchip-android-vendor-Widevine" />
   
-  <include name="android-12.1.0_r8.xml" />
+  <include name="android-12.1.0_r11.xml" />
 </manifest>

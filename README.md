@@ -1,6 +1,8 @@
 # rockchip-android-manifest
 
-For more information, please go to TinkerBoard wiki.
+This is the manifest project used to download the Tinker OS Android code base for the Tinker Board series.
+
+For more information, please go to the TinkerBoard wiki.
 
     https://github.com/TinkerBoard/TinkerBoard/wiki
 
@@ -12,23 +14,43 @@ Please refer to the following URL to install Repo.
 
     https://source.android.com/setup/develop#installing-repo
 
-Please refer to the following URL to understand how to download the AOSP-based source.
+Please refer to the following URL to understand how to download the code base using repo.
 
     https://source.android.com/setup/build/downloading
 
-To check out the specific branch:
+The code base has branches for different products and manifests for different releases.
 
-    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION
+To check out the latest code base for a product, please run the following command and use the branch name for that product as REVISION.
 
-To check out the specific release:
+    $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION
 
-    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION -m NAME.xml
+To check out the code base for a specific release, please run the following command and use the branch name for that product as REVISION and the manifest as NAME.xml.
 
-Here REVISON is the manifest branch or revision (use HEAD for default) and NAME.xml is the initial manifest file. Regarding the branches and manifest for each project, please refer to the following release table.
+    $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION -m NAME.xml
 
-To download the Android source tree to your working directory from the repositories as specified in the default manifest, run:
+Here REVISON is the manifest branch for the product and NAME.xml is the manifest file for the release. Regarding the branches and manifests for each project, please refer to the following release table.
+
+To download the code base source tree to your working directory from the repositories as specified in the default manifest, run:
 
     $ repo sync
+
+To build the image, go to to the directory where you have downloaded the code base and run the script as the following. This will take a while to install the necessary packages on the host and build the Docker image.
+
+    $ ./docker_builder/docker-builder-run.sh
+
+Once the above is done, you are in the shell of the newly started Docker container. You can start to run commands as usual. You can then run the commands to build the image. The images will be saved in the directory IMAGE.
+
+## Tinker Board 3N
+### Tinker OS Android
+|Product|Android version|Release|Branch|Manifest|Comment|
+|-|-|-|-|-|-|
+|Tinker Board 3N|Android 12|latest|android12-rockchip|default.xml|
+
+To build the image, please run the following commands.
+
+    $ source build/envsetup.sh
+    $ lunch Tinker_Board_3N-userdebug 
+    $ ./build.sh -UCKAu
 
 |Product|Android version|Release|Branch|Manifest|
 |-|-|-|-|-|

@@ -82,6 +82,7 @@
   <project path="device/google/gs-common" name="TinkerBoard-Android/rockchip-android-device-google-gs-common" />
   <project path="device/google/gs101" name="TinkerBoard-Android/rockchip-android-device-google-gs101" />
   <project path="device/google/gs101-sepolicy" name="TinkerBoard-Android/rockchip-android-device-google-gs101-sepolicy" />
+  <project path="device/google/raviole" name="TinkerBoard-Android/rockchip-android-device-google-raviole" />
   <project path="device/google/vrservices" name="TinkerBoard-Android/rockchip-android-device-google-vrservices" />
   <project path="device/google_car" name="TinkerBoard-Android/rockchip-android-device-google_car" />
   <project path="device/linaro/hikey" name="TinkerBoard-Android/rockchip-android-device-linaro-hikey" />

@@ -22,11 +22,11 @@ The code base has branches for different products and manifests for different re
 
 To check out the latest code base for a product, please run the following command and use the branch name for that product as REVISION.
 
-    $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION
+    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION
 
 To check out the code base for a specific release, please run the following command and use the branch name for that product as REVISION and the manifest as NAME.xml.
 
-    $ repo init -u https://github.com/TinkerBoard/rockchip-linux-manifest.git -b REVISION -m NAME.xml
+    $ repo init -u https://github.com/TinkerBoard-Android/rockchip-android-manifest.git -b REVISION -m NAME.xml
 
 Here REVISON is the manifest branch for the product and NAME.xml is the manifest file for the release. Regarding the branches and manifests for each project, please refer to the following release table.
 

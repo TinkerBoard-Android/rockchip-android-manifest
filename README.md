@@ -45,12 +45,14 @@ Once the above is done, you are in the shell of the newly started Docker contain
 |Product|Android version|Release|Branch|Manifest|Comment|
 |-|-|-|-|-|-|
 |Tinker Board 3N|Android 12|latest|android12-rockchip|default.xml|
+|Tinker Board 3N|Android 12|1.0.2|android12-rockchip|1.0.2.xml|
 
 To build the image, please run the following commands.
 
     $ source build/envsetup.sh
     $ lunch Tinker_Board_3N-userdebug 
     $ ./build.sh -UCKAu
+## Tinker Edge R, Tinker Board 2S, and Tinker Board (S) R2.0
 
 |Product|Android version|Release|Branch|Manifest|
 |-|-|-|-|-|
@@ -81,3 +83,6 @@ To build the image, please run the following commands.
 |Tinker Board 2/2S|Android 11|2.0.5|android11-rockchip|tinker_board_2-android11-2.0.5.xml|
 |Tinker Board 2/2S|Android 11|2.0.6|android11-rockchip|tinker_board_2-android11-2.0.6.xml|
 |Tinker Board 2/2S|Android 11|2.0.8|android11-rockchip|tinker_board_2-android11-2.0.8.xml|
+|Tinker Board 2/2S|Android 12|latest|android12-rockchip||
+|Tinker Board 2/2S|Android 12|3.0.2|android11-rockchip|tinker_board_2-android12-3.0.2.xml|
+

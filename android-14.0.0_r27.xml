@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="aosp"
+          revision="refs/tags/android-14.0.0_r27"
+	  fetch="https://android.googlesource.com/"
+          review="https://android.googlesource.com/" />
+
+  <project path="cts" name="platform/cts" remote="aosp" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="external/angle" name="platform/external/angle" remote="aosp" groups="pdk" />
+  <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="external/cronet" name="platform/external/cronet" remote="aosp" groups="pdk" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" remote="aosp" groups="pdk-fs" />
+  <project path="external/linux-kselftest" name="platform/external/linux-kselftest" remote="aosp" groups="vts,pdk" clone-depth="1" />
+  <project path="external/python/google-auth-library-python" name="platform/external/python/google-auth-library-python" remote="aosp" groups="pdk" />
+  <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" remote="aosp"  groups="pdk" clone-depth="1"/>
+  <project path="external/swiftshader" name="platform/external/swiftshader" remote="aosp" groups="pdk" />
+  <project path="external/timezone-boundary-builder" name="platform/external/timezone-boundary-builder" remote="aosp" groups="pdk" clone-depth="2" />
+  <project path="kernel/prebuilts/5.10/arm64" name="kernel/prebuilts/5.10/arm64" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" remote="aosp" groups="pdk" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" remote="aosp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/abi-dumps/ndk" name="platform/prebuilts/abi-dumps/ndk" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/platform" name="platform/prebuilts/abi-dumps/platform" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/asuite" name="platform/prebuilts/asuite" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" remote="aosp" groups="darwin,pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" remote="aosp" groups="linux,pdk" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bundletool" name="platform/prebuilts/bundletool" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/checkcolor" name="platform/prebuilts/checkcolor" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" remote="aosp" groups="pdk,darwin" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" remote="aosp" groups="pdk,linux" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" remote="aosp" groups="darwin,pdk,tradefed" clone-depth="1" />
+  <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" remote="aosp" groups="linux,pdk,tradefed" clone-depth="1" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" remote="aosp" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" remote="aosp"  groups="pdk-cw-fs,pdk-fs" clone-depth="1"/>
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" groups="pdk" clone-depth="1"/>
+  <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Bluetooth" name="platform/prebuilts/module_sdk/Bluetooth" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/ConfigInfrastructure" name="platform/prebuilts/module_sdk/ConfigInfrastructure" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Connectivity" name="platform/prebuilts/module_sdk/Connectivity" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/DeviceLock" name="platform/prebuilts/module_sdk/DeviceLock" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/HealthFitness" name="platform/prebuilts/module_sdk/HealthFitness" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/IPsec" name="platform/prebuilts/module_sdk/IPsec" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Media" name="platform/prebuilts/module_sdk/Media" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/MediaProvider" name="platform/prebuilts/module_sdk/MediaProvider" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/OnDevicePersonalization" name="platform/prebuilts/module_sdk/OnDevicePersonalization" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Permission" name="platform/prebuilts/module_sdk/Permission" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/RemoteKeyProvisioning" name="platform/prebuilts/module_sdk/RemoteKeyProvisioning" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Scheduling" name="platform/prebuilts/module_sdk/Scheduling" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/SdkExtensions" name="platform/prebuilts/module_sdk/SdkExtensions" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/StatsD" name="platform/prebuilts/module_sdk/StatsD" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Uwb" name="platform/prebuilts/module_sdk/Uwb" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/Wifi" name="platform/prebuilts/module_sdk/Wifi" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/module_sdk/conscrypt" name="platform/prebuilts/module_sdk/conscrypt" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" groups="pdk,tools" clone-depth="1" />
+  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v31" name="platform/prebuilts/vndk/v31" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v32" name="platform/prebuilts/vndk/v32" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v33" name="platform/prebuilts/vndk/v33" remote="aosp" groups="pdk" clone-depth="1" />
+  <project path="system/unwinding" name="platform/system/unwinding" remote="aosp" groups="pdk" />
+  <project path="tools/dexter" name="platform/tools/dexter" remote="aosp" groups="tools,pdk-fs" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" remote="aosp" groups="pdk,tradefed" clone-depth="1" />
+</manifest>

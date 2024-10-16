@@ -51,7 +51,7 @@
   </project>
   <project path="device/asus/tinker_board_3" name="TinkerBoard-Android/rockchip-android-device-asus-tinker_board_3" />
   <project path="device/google/atv" name="TinkerBoard-Android/rockchip-android-device-google-atv" />
-  <project path="device/rockchip/common" name="TinkerBoard-Android/rockchip-android-device-rockchip-rksdk" >
+  <project path="device/rockchip/common" name="TinkerBoard-Android/rockchip-android-device-rockchip-rksdk" revision="263a83c05588151ab5d481e67e7df68b35a8a001" >
     <linkfile src=".classpath" dest=".classpath"/>
     <linkfile src="javaenv.sh" dest="javaenv.sh"/>
     <linkfile src="build/rockchip/blank_file" dest="kernel-6.1/.find-ignore"/>
@@ -876,7 +876,7 @@
   <project path="hardware/ril" name="TinkerBoard-Android/rockchip-android-hardware-ril" />
   <project path="hardware/rockchip/audio" name="TinkerBoard-Android/rockchip-android-hardware-rk29-audio" />
   <project path="hardware/rockchip/bootctrl" name="TinkerBoard-Android/rockchip-android-hardware-rk29-bootctrl" />
-  <project path="hardware/rockchip/camera" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_v3" />
+  <project path="hardware/rockchip/camera" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_v3" revision="009d9ed5db6a65c5c0a73d4a59286718618ab250" />
   <project path="hardware/rockchip/camera_aidl" name="TinkerBoard-Android/rockchip-android-hardware-rk35-camera_aidl" />
   <project path="hardware/rockchip/camera_engine_rkisp" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_engine_rkisp" />
   <project path="hardware/rockchip/camera_vir" name="TinkerBoard-Android/rockchip-android-hardware-rk29-camera_vir" />
